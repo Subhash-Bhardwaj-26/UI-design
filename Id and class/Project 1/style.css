@@ -1,4 +1,15 @@
+
+.maincontainer{ 
+
+   margin-left: 10px;
+   margin-right:10px;
+
+
+}
+
+
 .button {
+
    margin: 5px;
    padding: 0.5;
    border: 0.5px;
@@ -10,32 +21,131 @@
    font-size: 12px;
 
 }
-.container1 {
+
+.leftcontainer {
    background-color: rgb(196, 202, 218);
    display: flex;
-   flex-direction: column;
+   padding:0%;
+   margin:0%;
+   flex-direction: row;
    border-radius: 0px;
-   width: 100%;
+   width: 80%;
    height: 100%;
    text-align: center;
-   justify-content: center;
-   align-items: center;
+   
 }
 .img {
-   width: 250px;
-   align-items:top;
+   width:250px;
+   margin:auto;
+   align-items:center;
 }
 
 .container {
    display: flex;
    /* Enables flexbox on the container */
+   
 }
 
-.container2 {
-   flex: 1;
+.rightcontainer{
    padding: 20px;
    margin: 10px;
    background-color: rgba(76, 114, 143, 0.849);
    text-align: center;
 }
- 
+
+
+ .{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container {
+   display: flex;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+   width: 800px;
+   overflow: hidden;
+}
+
+.left-panel {
+   width: 35%;
+   background-color: #f4f4f4;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}*/
+
+.right-panel {
+   width: 65%;
+   background-color: #88a5b6;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.btn {
+   background-color: #44748b;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   text-align: center;
+}
+
+.nav-btn {
+   background-color: #d3d3d3;
+   padding: 5px;
+   border: none;
+   cursor: pointer;
+}
+
+.wave-display {
+   height: 120px;
+   background-color: #5d7e8c;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.wave {
+   width: 150px;
+   height: 80px;
+   background: url('velo.jpg') no-repeat center;
+   background-size: contain;
+}
+
+.wave-controls {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.action-buttons, .additional-buttons {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10px;
+}
+
+.wave-info {
+   background-color: #6b8995;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+}

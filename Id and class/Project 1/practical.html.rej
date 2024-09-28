@@ -1,0 +1,17 @@
+diff a/Id and class/Project 1/practical.html b/Id and class/Project 1/practical.html	(rejected hunks)
+@@ -40,7 +40,14 @@
+         <div class="rightcontainer">
+             <img src="velo.jpg" height="auto" width="100%">
+             
+-
++            <button type="button" class="button">cos 2t</button>
++                        <button type="button" class="button">&nbsp;</button>
++                        <button type="button" class="button">&nbsp;</button>
++                        <button type="button" class="button">&nbsp;</button>
++                        <button type="button" class="button">&nbsp;</button>
++                        <button type="button" class="button">&nbsp;</button>
++                        <button type="button" class="button">&nbsp;</button>
++                        <button type="button" class="button">output</button>
+         </div>
+ 
+ 
