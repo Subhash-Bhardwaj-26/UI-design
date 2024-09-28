@@ -1,0 +1,39 @@
+.red{
+    color:red;
+    background: #bad813;
+}
+
+img{
+    width: 1080px; height: 720px;  margin: 20px; padding: 105px 200px;
+    border: 8px solid rgb(30, 209, 200);
+}
+body{
+    
+    h1{
+
+        color:#bad813; background-color: antiquewhite;
+         color:blue
+    }
+li{
+    color: rgb(40, 218, 129);
+    
+}
+dt{ color: rgb(163, 39, 55) ; background: #a2c01b;
+}
+dd{color: rgba(49, 165, 185, 0.589);background: #172902;}
+
+
+
+
+}
+tr{color: rgb(185, 233, 11); border:#3d17a5;
+
+
+
+    
+}
+video{
+width:600px; height:500px; border:5px solid rgb(0, 4, 255);
+
+    
+}
