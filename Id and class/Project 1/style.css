@@ -39,3 +39,8 @@
    margin:auto;
    align-items:center;
 }
+.rightcontainer{
+ background-color: aqua;
+ height: 300px;
+ width:250px;
+}
