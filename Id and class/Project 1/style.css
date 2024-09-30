@@ -1,13 +1,14 @@
 
 .maincontainer{ 
+    
+width: auto;
+height: auto;
+   margin:5px;
+  padding:5px;
 
-   margin-left: 10px;
-   margin-right:10px;
 
 
 }
-
-
 .button {
 
    margin: 5px;
@@ -19,9 +20,7 @@
    text-align: center;
    font-family: verdana, arial;
    font-size: 12px;
-
 }
-
 .leftcontainer {
    background-color: rgb(196, 202, 218);
    display: flex;
@@ -29,7 +28,7 @@
    margin:0%;
    flex-direction: row;
    border-radius: 0px;
-   width: 80%;
+   width: 1100px;
    height: 100%;
    text-align: center;
    
@@ -40,7 +39,36 @@
    align-items:center;
 }
 .rightcontainer{
- background-color: aqua;
- height: 300px;
- width:250px;
+
+ background-color: rgb(186, 210, 233);
+ justify-content: center;
+ border:0px;
+}
+.button1{
+
+width: auto;
+height: auto;
+border:0px;
+box-align:center;
+}
+.button2{
+   background-color:rgb(237, 244, 247);
+   width: 80px;
+   height: 30px;
+   border:0;
+   border-radius:12px;
+   margin:10px;
+text-align: center;
+   font-family: verdana, arial;
+   font-size: 12px;
+}
+.btn{
+border:0px;
+border-radius:4px;
+}
+.nav-btn{
+
+border:0px;
+border-radius:4px;
+
 }
