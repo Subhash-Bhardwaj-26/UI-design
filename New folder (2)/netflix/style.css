@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin:0px
+}
+
+
+
+.main{
+
+
+    background-image: url(bg.jpg);
+    height: 80vh;
+}
+
+main.box{
+height: 80vh;
+width:100%;
+opacity:0.44;
+background-color:rgb(199, 40, 40);
+
+
+}
