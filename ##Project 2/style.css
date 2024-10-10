@@ -6,5 +6,59 @@
     background: url(bg.jpg);
     height: 80vh;
     width: 100vw;
+   
 }
+.transbox{
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+background-color: #0a0a0a;
+opacity: 0.5;
+}
+nav {
+   position: relative;
+    max-width: 60vw;
+    justify-content: space-between;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    height:100px;
+}
+
+nav img {
+        width: 130px;
+}
+.red{
+    background-color: red;
+    border: 0px;
+}
+.btn{
+    
+    border: 0px;
+}
+
+
+ div.text{
+     position: relative;
+   color:  white;
+   display: flex;
+   text-align: center;
+   margin-top: 250px;
+   flex-direction: column;
+   font-family: 'Martel Sans', sans-serif; 
+} 
+
+div.register{
+    position: relative;
+    margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .btn-red{
+        background-color: red;
+        border: 0px;
+    }
+
 
