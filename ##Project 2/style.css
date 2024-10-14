@@ -54,7 +54,7 @@ nav img {
 }
 
 
-div.text {
+div .text {
     position: relative;
     color: white;
     display: flex;
@@ -80,39 +80,40 @@ div.register {
     border-radius: 2px;
     color: aliceblue;
 }
-/* .container2{
 
-margin-top: 100px;
+ .container2{
+
+margin-top: 150px;
 width: 100vw;
 height:100vh;
 background-color: black;
-} */
-.container2-1{
 position: absolute;
+} 
+.container2-1{
+
 color:white;
 font-family:'Martel Sans', sans-serif; 
 font-size: 25px;
 font-weight: 500;
 padding-left: 60px;
-padding-top: 35px;
+padding-top: 40px;
 }
 .container2-2{
 
 
-
     background-color: red;
-    width: 50vw;
-    height: auto;
-    display: flex;
-    position:absolute;
-
-    }
-
-
-
-
-
-
+   
+   justify-content: center;
+   align-content: center;
+   display: flex;
+  align-items:space-around;
  
+   
+}
 
 
+
+
+    
+
+    
