@@ -17,13 +17,13 @@
 
 }
 
- .transbox {
+.transbox {
     position: absolute;
     height: 80vh;
     width: 100vw;
     background-color: #0a0a0a;
     opacity: 0.5;
-} 
+}
 
 nav {
     position: relative;
@@ -81,99 +81,131 @@ div.register {
     color: aliceblue;
 }
 
- .container2{
+.container2 {
 
-margin-top: 150px;
-width: 100vw;
-height:auto;
-background-color: black;
-position: absolute;
-} 
-.container2-1{
-
-color:white;
-font-family:'Martel Sans', sans-serif; 
-font-size: 25px;
-font-weight: 500;
-padding-left: 60px;
-padding-top: 40px;
+    margin-top: 150px;
+    width: 100vw;
+    height: auto;
+    /* background-color: black; */
+    position: absolute;
 }
-.container2-2{
 
-padding: 125px;
-    background-color:black;
-      justify-content: center;
-   display: flex;
-  justify-content:space-around;
- 
-   
-}.text2{
+.container2-1 {
 
-color:white;
-font-size: 30px;
-padding-left: 250px;
-font-family:'Martel Sans', sans-serif; 
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.container2-2 {
+
+    padding: 125px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+
 
 }
 
-.container3{
-margin-top:auto;
-height: auto;
-position:relative;
-align-items:center;
-display: flex;
-justify-content: space-evenly;
-padding: 0 20px;
+.text2 {
 
+    color: white;
+    font-size: 30px;
+    padding-left: 250px;
+    font-family: 'Martel Sans', sans-serif;
 
 }
-.box{
 
-width: 250px;
-height: 350px;
-background-color: rgb(20, 21, 119);
-border-style: solid;
-border-color: rgb(34, 185, 185);
-border: 2px;
-padding-top: 30px;
-
-
-
+.container3 {
+    margin-top: 730px;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #0a0a0a;
 }
-.box :nth-child(1){
+
+.text2 {
+    position: absolute;
+    top: -40px;
+    left: -90px;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.box {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(20, 21, 119);
+    border: 2px solid rgb(34, 185, 185);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.box p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.box p:last-child {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.box :nth-child(1) {
     color: aliceblue;
-font-size:28px;
-font-family:'Martel Sans';
-margin-left: 10px;
-margin-right:10px ;
-padding-left: 10px;
+    font-size: 28px;
+    font-family: 'Martel Sans';
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
 
 }
-.box :nth-child(2){
-    padding-top:20px;
+
+.box :nth-child(2) {
+    padding-top: 20px;
     font-family: sans-serif;
     color: aliceblue;
     margin: 10px;
 }
-.row{
 
-width: 100%;
-height:100%;
-background-color: black;
-margin-top: -50;
-
-
+.container4 {
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-left: 150px;
+    background-color: #0a0a0a;
 }
-.text3{
 
-    color:white;
-    font-size: 30px;
-    font-family:'Martel Sans', sans-serif; 
-   padding-left: 150px;
-  
-   }
+.text3 {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
 
-    
-
-
-    
+.box2 {
+    margin: 10px;
+    width: 80vw;
+    height: 30px;
+    background-color: rgb(20, 21, 119);
+    border: 2px solid rgb(34, 185, 185);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
