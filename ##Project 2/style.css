@@ -98,6 +98,7 @@ div.register {
     font-weight: 500;
     padding-left: 60px;
     padding-top: 40px;
+    background-color: black;
 }
 
 .container2-2 {
@@ -142,8 +143,8 @@ div.register {
 .box {
     width: 250px;
     height: 350px;
-    background-color: rgb(20, 21, 119);
-    border: 2px solid rgb(34, 185, 185);
+    background-color:rgb(17, 16, 16);
+    border: 2px solid rgb(85, 85, 85);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -202,10 +203,80 @@ div.register {
     margin: 10px;
     width: 80vw;
     height: 30px;
-    background-color: rgb(20, 21, 119);
-    border: 2px solid rgb(34, 185, 185);
+    background-color: rgb(3, 3, 3);
+    border: 2px solid rgb(38, 39, 39);
     padding: 20px;
     display: flex;
     flex-direction: column;
     color: white;
 }
+.container5{
+width: 100%;
+height: 100%;
+background-color: rgb(8, 8, 8);
+position:relative;
+margin: auto;
+
+}
+
+.txt4 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 80px;
+   text-align: center;
+    color: white;
+    font-size:17px;
+    
+}
+
+.input-large {
+    width: 455px; 
+    height: 45px; 
+    padding: 10px; 
+    border-radius: 4px; 
+    background-color: rgba(12, 12, 12, 0.2);
+}
+.login{
+
+padding-left: 650px;
+padding-top: 150px;
+
+}
+.btnred {
+    background-color: red;
+    border: 0px;
+    width: 180px;
+    height: 56px;
+    border-radius: 2px;
+    color: aliceblue;
+    
+}
+.table-container {
+        padding-top: 150px;
+    width: 60%;
+  margin: auto;
+  
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    
+    padding:10px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btred {
+    background-color: rgba(236, 232, 232, 0.25);
+    border: 1px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+   }
