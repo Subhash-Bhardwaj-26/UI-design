@@ -234,22 +234,22 @@ transform: scale(1.1);
 }
 .container5{
 width: 100vw;
-height: 100%;
+height: auto;
 background-color: rgb(8, 8, 8);
-position:relative;
-margin: auto;
-align-content: center;
+position:absolute;
+display: flex;
+flex-direction: column;
+
 
 }
 
 .txt4 {
-    position: absolute;
+    position: relative;
     width: 100vw;
-    height: 100vh;
-    margin-top: 80px;
+   margin-top: 80px;
    text-align: center;
     color: white;
-    font-size:px;
+    font-size:30px;
     
 }
 
@@ -259,15 +259,18 @@ align-content: center;
     padding: 10px; 
     border-radius: 2cap; 
     background-color: rgba(92, 88, 88, 0.2);
+    display: flex;
+
     
     
 }
-.login{
-
-padding-left: 650px;
-padding-top: 150px;
-
-}
+ .login{
+display: flex;
+gap:20px;
+align-items: center;
+justify-content: center;
+padding-top:20px;
+} 
 .btnred {
     background-color: red;
     border: 0px;
@@ -276,11 +279,15 @@ padding-top: 150px;
     border-radius: 1.5cap;
     color: aliceblue;
     
+    
 }
 .table-container {
         padding-top: 150px;
     width: 60%;
   margin: auto;
+  display: flex;
+  position: relative;
+  
   
 }
 table {
@@ -295,6 +302,7 @@ th, td {
     text-decoration: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .btred {
     background-color: rgba(236, 232, 232, 0.25);
     border: 1px;
@@ -304,6 +312,7 @@ th, td {
     color: white;
     font-size: 20px;
     margin-top: 20px;
+     margin-left: 50px;
     
    }
 
