@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="Style2.css">
+</head>
+
+<body>
+    <main>
+        <section class="main">
+            <h2>User Registration Form</h2>
+            <form action="">
+                <label for="first">First Name:</label>
+                <input type="text" id="first" name="first" required />
+
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" name="last" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"
+                    pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" 
+                    title="Password must contain at least one number, one alphabet, one symbol, and be at least 8 characters long" 
+                    required />
+
+                <label for="repassword">Re-type Password:</label>
+                <input type="password" id="repassword" name="repassword" required />
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="60" required />
+
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" pattern="^\d{10}$" required
+                    title="Please enter a valid 10-digit phone number." />
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select a country</option>
+                    <option value="IN">India</option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="AU">Australia</option>
+                </select>
+
+                <fieldset class="styled-fieldset">
+                    <legend class="styled-legend">Gender:</legend>
+                    <label style="display: inline-block; margin-right: 10px;">
+                        <input type="radio" name="gender" value="male" required>
+                        Male
+                    </label>
+                    <label style="display: inline-block; margin-right: 10px;">
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </label>
+                    <label style="display: inline-block; margin-right: 10px;">
+                        <input type="radio" name="gender" value="other">
+                        Other
+                    </label>
+                </fieldset>
+
+                <fieldset class="styled-fieldset">
+                    <legend class="styled-legend">Bio:</legend>
+                    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..." required></textarea>
+                </fieldset>
+
+                <fieldset class="styled-fieldset">
+                    <legend class="styled-legend">Interests:</legend>
+                    <label>
+                        <input type="checkbox" name="interests" value="technology"> Technology
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="interests" value="sports"> Sports
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="interests" value="music"> Music
+                    </label>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
