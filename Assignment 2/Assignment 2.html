@@ -24,8 +24,8 @@
 
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password"
-                    pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" 
-                    title="Password must contain at least one number, one alphabet, one symbol, and be at least 8 characters long" 
+                    pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$"
+                    title="Password must contain at least one number, one alphabet, one symbol, and be at least 8 characters long"
                     required />
 
                 <label for="repassword">Re-type Password:</label>
@@ -66,7 +66,8 @@
 
                 <fieldset class="styled-fieldset">
                     <legend class="styled-legend">Bio:</legend>
-                    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..." required></textarea>
+                    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."
+                        required></textarea>
                 </fieldset>
 
                 <fieldset class="styled-fieldset">
@@ -86,6 +87,125 @@
 
                 <button type="submit">Submit</button>
             </form>
+            <h1>HTML Elements Demonstration</h1>
+            <h2>Defination List</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hypertext Markup Language, the standard markup language for documents designed to be displayed in a
+                    web browser.</dd>
+
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets, a style sheet language used for describing the presentation of a document
+                    written in HTML or XML.</dd>
+
+                <dt>JavaScript</dt>
+                <dd>A programming language that allows you to implement complex features on web pages.</dd>
+            </dl>
+            <video controls>
+                <source src="mp1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h3>Location Map: Kandaghat, Himachal Pradesh</h3>
+            <p>This map shows the beautiful location of Kandaghat in Himachal Pradesh, known for its scenic views and
+                serene environment.</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14290.839838282016!2d77.0599733!3d30.9655672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f80ad6e169aff%3A0xa88c30dbc0f267d0!2sKandaghat%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sus!4v1699127342879!5m2!1sen!2sus"
+                width="600" height="450" loading="lazy">
+            </iframe>
+            </iframe>
+            <h3>Image Gallery</h3>
+            <div class="image-container">
+
+                <img src="img3.webp" alt=" Image 3">
+                <img src="img4.webp" alt="Image 4">
+                <img src="img5.webp" alt="Image 5">
+                <img src="img6.webp" alt="Image 6">
+            </div>
+            <h1>Store Products Inventory</h1>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Subcategory</th>
+                        <th>Price ($)</th>
+                        <th>Stock Quantity</th>
+                        <th>Supplier</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Apple iPhone 14</td>
+                        <td>Electronics</td>
+                        <td>Smartphones</td>
+                        <td>999.99</td>
+                        <td>50</td>
+                        <td>Apple Inc.</td>
+                        <td><button class="btn">Edit</button></td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Samsung Galaxy S23</td>
+                        <td>Electronics</td>
+                        <td>Smartphones</td>
+                        <td>899.99</td>
+                        <td>30</td>
+                        <td>Samsung</td>
+                        <td><button class="btn">Edit</button></td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Dell XPS 13</td>
+                        <td>Electronics</td>
+                        <td>Laptops</td>
+                        <td>1299.99</td>
+                        <td>20</td>
+                        <td>Dell Inc.</td>
+                        <td><button class="btn">Edit</button></td>
+                    </tr>
+                    <tr>
+                        <td>104</td>
+                        <td>Nike Running Shoes</td>
+                        <td>Footwear</td>
+                        <td>Sneakers</td>
+                        <td>129.99</td>
+                        <td>100</td>
+                        <td>Nike</td>
+                        <td><button class="btn">Edit</button></td>
+                    </tr>
+                    <tr>
+                        <td>105</td>
+                        <td>KitchenAid Mixer</td>
+                        <td>Home Appliances</td>
+                        <td>Kitchen Appliances</td>
+                        <td>399.99</td>
+                        <td>15</td>
+                        <td>Whirlpool</td>
+                        <td><button class="btn">Edit</button></td>
+                    </tr>
+                    <tr>
+                        <td>106</td>
+                        <td>Sony WH-1000XM4</td>
+                        <td>Electronics</td>
+                        <td>Headphones</td>
+                        <td>349.99</td>
+                        <td>25</td>
+                        <td>Sony</td>
+                        <td><button class="btn">Edit</button></td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <footer>
+                <p>&copy; 2024 Your Name. All rights reserved. | <a href="#">Contact Us</a> | <a href="#">Privacy
+                        Policy</a></p>
+            </footer>
         </section>
     </main>
 </body>
